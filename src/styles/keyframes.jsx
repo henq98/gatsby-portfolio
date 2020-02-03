@@ -1,7 +1,7 @@
 import { keyframes } from "styled-components"
 
 export const swingAnimation = keyframes`
-15% {
+  15% {
     -webkit-transform: translateX(5px);
     transform: translateX(5px);
   }

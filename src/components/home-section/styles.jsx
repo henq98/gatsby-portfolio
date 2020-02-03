@@ -13,12 +13,10 @@ export const BackgroundVideo = styled.video`
   position: fixed;
 `
 export const OverlayVideo = styled.div`
-  position: fixed;
-  left: 0;
-  top: 0;
+  position: sticky;
   height: 100vh;
-  width: 100vw;
-  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
 `
 export const MainTitle = styled.span`
   position: absolute;

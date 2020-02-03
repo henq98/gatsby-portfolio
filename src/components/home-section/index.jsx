@@ -9,11 +9,11 @@ import {
   OverlayVideo,
   MainTitle,
   SocialIconsContainer,
-  SocialIcon
+  SocialIcon,
 } from "./styles"
 
 export default () => (
-  <Container>
+  <Container id="home">
     <SEO title="Welcome" />
     <BackgroundVideo loop muted autoPlay>
       <source src={video} type="video/mp4" />
