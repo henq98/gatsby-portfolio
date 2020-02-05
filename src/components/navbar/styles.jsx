@@ -10,7 +10,6 @@ export const Container = styled.div`
 export const SidebarToggle = styled.p`
   display: ${props => (!props.toggle ? `none` : `relative`)};
   font-size: 2rem;
-  font-family: "Segoe UI", sans-serif;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
   width: 112px;
@@ -26,7 +25,6 @@ export const SidebarItems = styled.ul`
 `
 export const Item = styled.li`
   text-transform: uppercase;
-  font-family: "Segoe UI", sans-serif;
   cursor: pointer;
   padding: 2px 14px 5px;
   margin-bottom: 20px;

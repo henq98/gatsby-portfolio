@@ -10,6 +10,7 @@ html, body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  font-family: 'Segoe UI', sans-serif;
   a {
     text-decoration: none;
   }
